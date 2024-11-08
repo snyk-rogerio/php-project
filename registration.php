@@ -63,7 +63,7 @@ $uname= $_POST['uname'];
 }
 
 if (empty($_POST["pwd"])) {
-$cpwd = "password is required";
+$cpwd = "password is required please";
 }else {
 $pwd = $_POST['pwd'];
 }
