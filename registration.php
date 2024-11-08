@@ -17,7 +17,7 @@
 
 <?php
 include 'dbcreation.php';
-
+$version = "1.0.0";
 $cfname = $cdob = $cphone = $cgender = $cemail = $cuname = $cpwd = "";
 
 if(isset($_POST['register'])){
